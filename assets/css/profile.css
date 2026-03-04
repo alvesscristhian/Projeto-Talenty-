@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INFOS PERFIL */
+.profile-section {
+    flex-direction: column;
+    background-color: #000;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+.user-container {
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    max-width: 80rem;
+}
+
+.user-photo {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100%;
+}
+
+.user-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 6rem;
+    color: #fff;
+}
+
+.user-status {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    margin: 1rem 1rem 3rem 0rem;
+}
+
+#username {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.user-config {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-config img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.photo-edit,
+.profile-edit {
+    display: flex;
+    background-color: #777777;
+    border-radius: 1.3rem;
+}
+
+.profile-buttons {
+    width: 25rem;
+    padding: 0.3rem 0 0.3rem 3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.profile-buttons span {
+    margin: 0 1.5rem;
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+/* INFOS PERFIL */
+
+hr {
+    margin: 3rem auto;
+    width: 80rem;
+}
+
+/* INFOS GALERIA */
+
+.gallery {
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    max-width: 80rem;
+    gap: 3rem;
+}
+
+.gallery img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
+}
